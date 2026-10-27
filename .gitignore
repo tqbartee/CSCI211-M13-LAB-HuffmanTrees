@@ -1,0 +1,41 @@
+# Gradle build and cache directories
+.gradle/
+/build/
+
+# Ignore Gradle GUI Helper files
+.gradle-egr/
+
+# Avoid ignoring Gradle Wrapper files (needed for sharing)
+!gradle/wrapper/gradle-wrapper.jar
+
+# Gradle task cache
+.gradletasknamecache
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# Eclipse
+.classpath
+.project
+.settings/
+bin/
+
+# Visual Studio Code
+.vscode/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# AI agent from antigravity
+.agent/
+
+# Ignore script that sets the project name
+setprojectname.ps1
+
+# Ignore configuration file for CodeGrade
+config.txt
